@@ -22,4 +22,6 @@ To test and make changes to this app locally, follow the below instructions.
 * Run `npm start` and `npm build` in the terminal to build and run it.
 * Make changes to the app, and see the changes in the browser
 
+## Screenshot of ReactJS web app
 
+<img src="README-Assests/Screenshot (333).png" width = "800">
