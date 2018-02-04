@@ -53,7 +53,6 @@ class App extends Component {
 
   handleSubmit(e) {
 
- 
   var headers = new Headers();
 // Tell the server we want JSON back
   headers.set('Accept', 'application/json');
