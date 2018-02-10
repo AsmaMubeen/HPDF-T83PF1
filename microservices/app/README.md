@@ -14,4 +14,4 @@ number         | 456              |   456
 
 
 * location : Recognizes locations
-* datetime : Recognizes time and date ; Eg: 6 am
+* datetime : Recognizes time and date
