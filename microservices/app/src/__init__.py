@@ -3,14 +3,10 @@ import requests
 from flask import Flask, request, redirect, render_template, make_response, abort, jsonify
 import json
 import os
-from os.path import join, dirname
-from dotenv import load_dotenv
-
-dotenv_path = join(dirname(__file__), '.env')
-load_dotenv(dotenv_path)
 
 
-access_token = os.environ.get("ACCESSTOKEN")
+
+access_token = os.environ["ACCESS_TOKEN"]
 
 client = Wit(access_token = access_token)
 
