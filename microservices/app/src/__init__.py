@@ -4,8 +4,6 @@ from flask import Flask, request, redirect, render_template, make_response, abor
 import json
 import os
 
-
-
 access_token = os.environ["ACCESS_TOKEN"]
 
 client = Wit(access_token = access_token)
