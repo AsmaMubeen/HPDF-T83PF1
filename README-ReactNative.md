@@ -1,20 +1,34 @@
 # Instructions for using react-native code
 
+* [Souce code for mobile app](ReactNative)
+
+## About the mobile app
+
+* Type an expression in the text field
+* The app will return the recognized entity present in the text
+* If the app does not recognize the entity, then a user-friendly message will be displayed
+* The link to our version of mobile app APK is given here:
+ https://drive.google.com/open?id=1hCw3EckoEA5uEK7cgBLi2r5aCdQfQN7R
+
+## Modification
+
+* Replace "fridge28" with your cluster name in the backend API URL (https://app.fridge28.hasura-app.io/) in ReactNative/wit.js
+    * `'https://app.<YourClusterName>.hasura-app.io/'`
 
 
- ## Software Requirements
+## Software Requirements
 
-   Software              |         Version
------------------------  |   -------------------
-   Android studio (IDE)  |         2.2.3
-   Android Sdk           |         25.0.2
-   Java                  |         1.8.0_121
-   Node Js               |         4.2.6
-   NPM                   |         3.5.2
-  React native cli	      |         2.0.1
+Software                      |         Version
+--------------------------           |   -------------------
+Android studio (IDE)   |         2.2.3
+Android Sdk                 |         25.0.2
+Java                               |         1.8.0_121
+Node Js                         |         4.2.6
+NPM                              |         3.5.2
+React native cli	    |         2.0.1
                                 
                                 
- ## React native setup
+## React Native setup
 
 *	Download the latest node js
 * Run the downloaded .msi file and follow the prompts to install
@@ -33,14 +47,8 @@
       * react-native run-android
 *	The sample project will be opened in the emulator.
 
-## How to use the Wit.ai app
 
-* To run the app download the index.js and wit.js file
-* Type an expression in the text-field
-* The app will return the recognized entity present in the text
-* If the app does not recognize the entity, then a user-friendly message will be displayed
-* The link of the apk is given here:
- https://drive.google.com/open?id=1hCw3EckoEA5uEK7cgBLi2r5aCdQfQN7R
+
 
 ## Screenshots of React Native mobile app
 
